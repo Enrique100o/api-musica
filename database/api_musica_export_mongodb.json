@@ -1,0 +1,324 @@
+{
+  "database": "api_musica",
+  "artistas": [
+    {
+      "_id": {
+        "$oid": "6ab432653b0acdb8f13baa01"
+      },
+      "nombre": "Shakira",
+      "genero": "Pop",
+      "pais": "Colombia",
+      "__v": 0,
+      "createdAt": {
+        "$date": "2026-09-30T19:00:00.000Z"
+      },
+      "updatedAt": {
+        "$date": "2026-09-30T19:00:00.000Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6ab432653b0acdb8f13baa02"
+      },
+      "nombre": "Karol G",
+      "genero": "Reggaeton",
+      "pais": "Colombia",
+      "__v": 0,
+      "createdAt": {
+        "$date": "2026-09-30T19:00:00.000Z"
+      },
+      "updatedAt": {
+        "$date": "2026-09-30T19:00:00.000Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6ab432653b0acdb8f13baa03"
+      },
+      "nombre": "Bad Bunny",
+      "genero": "Reggaeton",
+      "pais": "Puerto Rico",
+      "__v": 0,
+      "createdAt": {
+        "$date": "2026-09-30T19:00:00.000Z"
+      },
+      "updatedAt": {
+        "$date": "2026-09-30T19:00:00.000Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6ab432653b0acdb8f13baa04"
+      },
+      "nombre": "Morat",
+      "genero": "Pop",
+      "pais": "Colombia",
+      "__v": 0,
+      "createdAt": {
+        "$date": "2026-09-30T19:00:00.000Z"
+      },
+      "updatedAt": {
+        "$date": "2026-09-30T19:00:00.000Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6ab432653b0acdb8f13baa05"
+      },
+      "nombre": "Feid",
+      "genero": "Reggaeton",
+      "pais": "Colombia",
+      "__v": 0,
+      "createdAt": {
+        "$date": "2026-09-30T19:00:00.000Z"
+      },
+      "updatedAt": {
+        "$date": "2026-09-30T19:00:00.000Z"
+      }
+    }
+  ],
+  "albumes": [
+    {
+      "_id": {
+        "$oid": "6ab432653b0acdb8f13baa11"
+      },
+      "titulo": "Las Mujeres Ya No Lloran",
+      "artista": "Shakira",
+      "anio": 2024,
+      "genero": "Pop",
+      "__v": 0,
+      "createdAt": {
+        "$date": "2026-09-30T19:00:00.000Z"
+      },
+      "updatedAt": {
+        "$date": "2026-09-30T19:00:00.000Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6ab432653b0acdb8f13baa12"
+      },
+      "titulo": "Mañana Será Bonito",
+      "artista": "Karol G",
+      "anio": 2023,
+      "genero": "Reggaeton",
+      "__v": 0,
+      "createdAt": {
+        "$date": "2026-09-30T19:00:00.000Z"
+      },
+      "updatedAt": {
+        "$date": "2026-09-30T19:00:00.000Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6ab432653b0acdb8f13baa13"
+      },
+      "titulo": "Nadie Sabe Lo Que Va a Pasar Mañana",
+      "artista": "Bad Bunny",
+      "anio": 2023,
+      "genero": "Reggaeton",
+      "__v": 0,
+      "createdAt": {
+        "$date": "2026-09-30T19:00:00.000Z"
+      },
+      "updatedAt": {
+        "$date": "2026-09-30T19:00:00.000Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6ab432653b0acdb8f13baa14"
+      },
+      "titulo": "Si Ayer Fuera Hoy",
+      "artista": "Morat",
+      "anio": 2022,
+      "genero": "Pop",
+      "__v": 0,
+      "createdAt": {
+        "$date": "2026-09-30T19:00:00.000Z"
+      },
+      "updatedAt": {
+        "$date": "2026-09-30T19:00:00.000Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6ab432653b0acdb8f13baa15"
+      },
+      "titulo": "FERXXOCALIPSIS",
+      "artista": "Feid",
+      "anio": 2023,
+      "genero": "Reggaeton",
+      "__v": 0,
+      "createdAt": {
+        "$date": "2026-09-30T19:00:00.000Z"
+      },
+      "updatedAt": {
+        "$date": "2026-09-30T19:00:00.000Z"
+      }
+    }
+  ],
+  "canciones": [
+    {
+      "_id": {
+        "$oid": "6ab432653b0acdb8f13baa21"
+      },
+      "titulo": "Puntería",
+      "artista": "Shakira",
+      "album": "Las Mujeres Ya No Lloran",
+      "duracion": 171,
+      "__v": 0,
+      "createdAt": {
+        "$date": "2026-09-30T19:00:00.000Z"
+      },
+      "updatedAt": {
+        "$date": "2026-09-30T19:00:00.000Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6ab432653b0acdb8f13baa22"
+      },
+      "titulo": "TQG",
+      "artista": "Karol G",
+      "album": "Mañana Será Bonito",
+      "duracion": 197,
+      "__v": 0,
+      "createdAt": {
+        "$date": "2026-09-30T19:00:00.000Z"
+      },
+      "updatedAt": {
+        "$date": "2026-09-30T19:00:00.000Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6ab432653b0acdb8f13baa23"
+      },
+      "titulo": "MONACO",
+      "artista": "Bad Bunny",
+      "album": "Nadie Sabe Lo Que Va a Pasar Mañana",
+      "duracion": 267,
+      "__v": 0,
+      "createdAt": {
+        "$date": "2026-09-30T19:00:00.000Z"
+      },
+      "updatedAt": {
+        "$date": "2026-09-30T19:00:00.000Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6ab432653b0acdb8f13baa24"
+      },
+      "titulo": "506",
+      "artista": "Morat",
+      "album": "Si Ayer Fuera Hoy",
+      "duracion": 208,
+      "__v": 0,
+      "createdAt": {
+        "$date": "2026-09-30T19:00:00.000Z"
+      },
+      "updatedAt": {
+        "$date": "2026-09-30T19:00:00.000Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6ab432653b0acdb8f13baa25"
+      },
+      "titulo": "LUNA",
+      "artista": "Feid",
+      "album": "FERXXOCALIPSIS",
+      "duracion": 196,
+      "__v": 0,
+      "createdAt": {
+        "$date": "2026-09-30T19:00:00.000Z"
+      },
+      "updatedAt": {
+        "$date": "2026-09-30T19:00:00.000Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6ab432653b0acdb8f13baa26"
+      },
+      "titulo": "Acróstico",
+      "artista": "Shakira",
+      "album": "Las Mujeres Ya No Lloran",
+      "duracion": 171,
+      "__v": 0,
+      "createdAt": {
+        "$date": "2026-09-30T19:00:00.000Z"
+      },
+      "updatedAt": {
+        "$date": "2026-09-30T19:00:00.000Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6ab432653b0acdb8f13baa27"
+      },
+      "titulo": "MIENTRAS ME CURO DEL CORA",
+      "artista": "Karol G",
+      "album": "Mañana Será Bonito",
+      "duracion": 163,
+      "__v": 0,
+      "createdAt": {
+        "$date": "2026-09-30T19:00:00.000Z"
+      },
+      "updatedAt": {
+        "$date": "2026-09-30T19:00:00.000Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6ab432653b0acdb8f13baa28"
+      },
+      "titulo": "NUEVAYoL",
+      "artista": "Bad Bunny",
+      "album": "Nadie Sabe Lo Que Va a Pasar Mañana",
+      "duracion": 169,
+      "__v": 0,
+      "createdAt": {
+        "$date": "2026-09-30T19:00:00.000Z"
+      },
+      "updatedAt": {
+        "$date": "2026-09-30T19:00:00.000Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6ab432653b0acdb8f13baa29"
+      },
+      "titulo": "Debí Suponerlo",
+      "artista": "Morat",
+      "album": "Si Ayer Fuera Hoy",
+      "duracion": 199,
+      "__v": 0,
+      "createdAt": {
+        "$date": "2026-09-30T19:00:00.000Z"
+      },
+      "updatedAt": {
+        "$date": "2026-09-30T19:00:00.000Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6ab432653b0acdb8f13baa30"
+      },
+      "titulo": "CLASSY 101",
+      "artista": "Feid",
+      "album": "FERXXOCALIPSIS",
+      "duracion": 192,
+      "__v": 0,
+      "createdAt": {
+        "$date": "2026-09-30T19:00:00.000Z"
+      },
+      "updatedAt": {
+        "$date": "2026-09-30T19:00:00.000Z"
+      }
+    }
+  ]
+}
